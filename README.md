@@ -170,3 +170,9 @@ python -m scripts.train.train_distilled_gru_mpc \
 The teacher (`gpu_teacher_65k_1b`) and the direct-PPO source policy (`direct_gru_2p5b`) come from the earlier
 stages in the [experiment log](docs/experiment_log.md). That log has every command, the evaluation commands
 for each stage, and the heuristic controller and API (`python run_controller.py`, `python api.py`).
+
+## License
+
+[MIT](LICENSE) for the code written here (`training/`, `scripts/`, the controller and tracker). The upstream
+simulator (`src/`, `public/`) and the competition API template (`api.py`, `dtos.py`) come from
+[amboltio/DM-i-AI-2025](https://github.com/amboltio/DM-i-AI-2025), which has no license, and are not covered.
