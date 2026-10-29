@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.DS_Store
+
+# RL training artifacts
+models/
+runs/
+*.zip
